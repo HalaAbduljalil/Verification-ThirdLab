@@ -1,0 +1,4 @@
+./Dflipflop.sv
+./mux3x1.sv
+./ParallelLoadShiftRegisterDesign.sv
+./ParallelLoadShiftRegiisterTestBench.sv

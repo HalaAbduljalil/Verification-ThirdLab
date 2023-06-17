@@ -1,0 +1,133 @@
+{
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 42876,
+        "archive": "archive.18/_94423_archive_1.a"
+    },
+    "MlibObjs": {},
+    "LVLData": [
+        "SIM"
+    ],
+    "PrevCompiledModules": {
+        "std": {
+            "reYIK_d": {
+                "bytes": 21090,
+                "mod": "std",
+                "archive": "archive.18/_prev_archive_1.a",
+                "checksum": 0,
+                "mode": 4,
+                "out": "reYIK_d.o"
+            }
+        },
+        "...MASTER...": {
+            "amcQw_d": {
+                "bytes": 4744,
+                "mod": "...MASTER...",
+                "checksum": 0,
+                "mode": 4,
+                "out": "objs/amcQw_d.o"
+            }
+        },
+        "testbench": {
+            "iAVhC_d": {
+                "bytes": 24730,
+                "mod": "testbench",
+                "archive": "archive.18/_94423_archive_1.a",
+                "checksum": 0,
+                "mode": 4,
+                "out": "iAVhC_d.o"
+            }
+        }
+    },
+    "NameTable": {
+        "std": [
+            "std",
+            "reYIK",
+            "module",
+            1
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module",
+            3
+        ],
+        "testbench": [
+            "testbench",
+            "iAVhC",
+            "module",
+            2
+        ]
+    },
+    "CompileStrategy": "fullobj",
+    "stat": {
+        "ru_self_cgstart": {
+            "ru_utime_sec": 0.062466000000000001,
+            "ru_nvcsw": 25,
+            "ru_minflt": 17718,
+            "ru_maxrss_kb": 54296,
+            "ru_stime_sec": 0.037677000000000002,
+            "ru_majflt": 0,
+            "ru_nivcsw": 45
+        },
+        "ru_self_end": {
+            "ru_utime_sec": 0.082635,
+            "ru_nvcsw": 26,
+            "ru_minflt": 19513,
+            "ru_maxrss_kb": 59948,
+            "ru_stime_sec": 0.040820000000000002,
+            "ru_majflt": 0,
+            "ru_nivcsw": 49
+        },
+        "peak_mem_kb": 185896,
+        "ru_childs_cgstart": {
+            "ru_utime_sec": 0.0,
+            "ru_nvcsw": 0,
+            "ru_minflt": 0,
+            "ru_maxrss_kb": 0,
+            "ru_stime_sec": 0.0,
+            "ru_majflt": 0,
+            "ru_nivcsw": 0
+        },
+        "nQuads": 654,
+        "nMops": 936,
+        "mopSpeed": 46407.853636769301,
+        "totalObjSize": 67260,
+        "ru_childs_end": {
+            "ru_utime_sec": 0.0,
+            "ru_nvcsw": 1,
+            "ru_minflt": 585,
+            "ru_maxrss_kb": 13680,
+            "ru_stime_sec": 0.0038869999999999998,
+            "ru_majflt": 0,
+            "ru_nivcsw": 2
+        },
+        "quadSpeed": 32426.000297486244,
+        "mop/quad": 1.4311926605504588,
+        "outputSizePerQuad": 102.8440366972477,
+        "Frontend(%)": 75.592666545652563,
+        "CodeGen(%)": 24.40733345434743
+    },
+    "CurCompileUdps": {},
+    "CompileProcesses": [
+        "cgproc.94423.json"
+    ],
+    "CurCompileModules": [
+        "...MASTER...",
+        "...MASTER...",
+        "std",
+        "testbench",
+        "testbench"
+    ],
+    "PEModules": [],
+    "Misc": {
+        "csrc_abs": "/home/Hala/VLSI_verification/LABS/Lab04/csrc",
+        "csrc": "csrc",
+        "cwd": "/home/Hala/VLSI_verification/LABS/Lab04",
+        "archive_dir": "archive.18",
+        "daidir": "simv.daidir",
+        "daidir_abs": "/home/Hala/VLSI_verification/LABS/Lab04/simv.daidir",
+        "default_output_dir": "csrc"
+    },
+    "CompileStatus": "Successful"
+}
